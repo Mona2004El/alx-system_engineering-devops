@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ls-l | tr ' ' '\n'
+perl -lne 'print if $. % 2 == 1'
